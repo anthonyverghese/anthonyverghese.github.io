@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="myCSS.css">
+<title size=100 font=Arial>Anthony Verghese</title>
+
+</head>
+<body>
+
+<ul>
+  <li><a href="file:///C:/Users/Anthony/Documents/Applications/Resume.pdf">Resume</a></li>
+  <li><a href="https://www.linkedin.com/in/anthony-verghese-195762112/">LinkedIn</a></li>
+  <li><a href="https://github.com/anthonyverghese">GitHub</a></li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Materials</a>
+    <div class="dropdown-content">
+      <a href="file:///C:/Users/Anthony/Documents/Applications/Resume.pdf">Resume</a>
+      <a href="https://github.com/anthonyverghese">GitHub</a>
+	  <a href="https://www.linkedin.com/in/anthony-verghese-195762112/">LinkedIn</a>
+    </div>
+  </li>
+</ul>
+
+<p id="demo4" align=middle><font size=30px>Anthony Verghese</font></p>
+<p align=middle><img text-align=center src="graduation.jpg" style="width:500px;height:400px;"></p>
+<p id="demo" text-align=center align=middle></p>
+<p align=middle><button class="button"  text-align=top onclick="showMore()" >Want to know more about me?</button></p>
+
+
+<script>
+function showMore(){
+	document.getElementById("demo").innerHTML = "Passionate about utilizing software engineering to make a powerful impact in the field of cyber security.";
+}
+</script>
+
+</div>
+
+
+
+</body>
+</html>
