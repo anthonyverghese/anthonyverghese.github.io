@@ -32,8 +32,19 @@ nav a {
 
 .subSection {
 	height: 50%;
-	background-color: bisque;
 	font-size: 115%;
+}
+
+.sub1 {
+	background-color: #82CAFA;
+}
+
+.sub2 {
+	background-color: #FFFFC2;
+}
+
+.sub3 {
+	background-color: #FBBBB9;
 }
 
 .sectOne {
