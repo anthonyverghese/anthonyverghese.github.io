@@ -1,40 +1,59 @@
 <!DOCTYPE html>
 <html>
-<head>
-<link rel="stylesheet" type="text/css" href="myCSS.css">
-<title size=100 font=Arial>Anthony Verghese</title>
-
-</head>
+ 
+<head lang="en">
+	<meta charset="UTF-8">
+	<title>Scrolling</title>
+	<link rel="stylesheet" type="text/css" href="myCSS.css">
+	<link href="https://fonts.googleapis.com/css?family=Reem+Kufi" rel="stylesheet">
+</head>	
 <body>
-
-<ul>
-  <li><a href="file:///C:/Users/Anthony/Documents/Applications/Resume.pdf">Resume</a></li>
-  <li><a href="https://www.linkedin.com/in/anthony-verghese-195762112/">LinkedIn</a></li>
-  <li><a href="https://github.com/anthonyverghese">GitHub</a></li>
-  <li class="dropdown">
-    <a href="javascript:void(0)" class="dropbtn">Materials</a>
-    <div class="dropdown-content">
-      <a href="file:///C:/Users/Anthony/Documents/Applications/Resume.pdf">Resume</a>
-      <a href="https://github.com/anthonyverghese">GitHub</a>
-	  <a href="https://www.linkedin.com/in/anthony-verghese-195762112/">LinkedIn</a>
-    </div>
-  </li>
-</ul>
-
-<p id="demo4" align=middle><font size=30px>Anthony Verghese</font></p>
-<p align=middle><img text-align=center src="graduation.jpg" style="width:500px;height:400px;"></p>
-<p id="demo" text-align=center align=middle></p>
-<p align=middle><button class="button"  text-align=top onclick="showMore()" >Want to know more about me?</button></p>
+<nav>
+	<a href="#aboutsection">ABOUT</a>
+	<a href="#exploresection">EXPLORE</a>
+	<a href="#contactsection">CONTACT</a>
+</nav>
 
 
-<script>
-function showMore(){
-	document.getElementById("demo").innerHTML = "Passionate about utilizing software engineering to make a powerful impact in the field of cyber security.";
-}
-</script>
+<div class="sect sectOne">
+<h1>Welcome</h1>
+</div>
+<a name="aboutsection"><div class="subSection"></a>
+<br></br>
+<p align=middle><img text-align=center src="graduation.jpg" style="width:200px;height:170px;"></p>
+My name is Anthony Verghese and I am studying computer science in the School of Engineering at Cornell University. 
+I am interested in utilizing my programming background to make an impact in the field of cyber security. 
+When I am not programming or working on side projects, I like teaching myself languages, such as Hindi. In addition, when
+I have the time, I enjoy playing the ukulele, reading the news, or editing videos for my Youtube channel.  
+</div>
+<div class="sect sectTwo"></div>
+
+<a name="exploresection"><div class="subSection"></a>
+<br></br>
+<br></br>
+If you would like to learn more about my projects and achievements, please click on 
+the following links. 
+<br></br>
+<a href="file:///C:/Users/Anthony/Documents/Applications/Resume.pdf">
+<img src="Resume.png" alt="View my resume" width="70" height="70" border="0">
+</a>
+<a href="https://www.linkedin.com/in/anthony-verghese-195762112/">
+<img src="LinkedIn.png" alt="View my LinkedIn" width="70" height="70" border="0">
+</a>
+<a href="https://github.com/anthonyverghese">
+<img src="GitHub.png" alt="View my GitHub" width="70" height="70" border="0">
+</a>
+
 
 </div>
-
+<div class="sect sectThree"></div>
+<a name="contactsection"><div class="subSection"></a>
+Contact 
+<br></br>
+Email: akv26@cornell.edu
+<br></br>
+Phone: (703)-268-9327
+</div>
 
 
 </body>
