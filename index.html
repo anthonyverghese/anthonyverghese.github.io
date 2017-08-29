@@ -1,40 +1,103 @@
 <!DOCTYPE html>
-<html>
- 
-<head lang="en">
-	<meta charset="UTF-8">
-	<title>Scrolling</title>
-	<link rel="stylesheet" type="text/css" href="myCSS.css">
-	<link href="https://fonts.googleapis.com/css?family=Reem+Kufi" rel="stylesheet">
-</head>	
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Anthony Verghese</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
 <body>
-<nav>
-	<a href="#aboutsection">ABOUT</a>
-	<a href="#exploresection">EXPLORE</a>
-	<a href="#contactsection">CONTACT</a>
-</nav>
+  <nav class="white" role="navigation">
+    <div class="nav-wrapper container">
+      <ul class="right hide-on-med-and-down">
+      </ul>
+
+      <ul id="nav-mobile" class="side-nav">
+      </ul>
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+
+  <div id="index-banner" class="parallax-container">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <br><br>
+        <h1 class="header center teal-text text-lighten-2">Anthony Verghese</h1>
+        <div class="row center">
+          <h5 class="header col s12 light">Cornell Class of 2019, B.S Computer Science</h5>
+        </div>
+        <div class="row center">
+			
+        </div>
+        <br><br>
+
+      </div>
+    </div>
+    <div class="parallax"><img src="background1.jpg" alt="Unsplashed background img 1"></div>
+  </div>
 
 
-<div class="sect sectOne">
-<h1>Welcome</h1>
-</div>
-<a name="aboutsection"><div class="subSection sub1"></a>
-<br></br>
-<p align=middle><img text-align=center src="graduation.jpg" style="width:200px;height:170px;"></p>
-My name is Anthony Verghese and I am studying computer science in the School of Engineering at Cornell University. 
-I am interested in utilizing my programming background to make an impact in the field of cyber security. 
-When I am not programming or working on side projects, I like teaching myself languages, such as Hindi. In addition, when
-I have the time, I enjoy playing the ukulele, reading the news, or editing videos for my Youtube channel.  
-</div>
-<div class="sect sectTwo"></div>
+  <div class="container">
+    <div class="section">
 
-<a name="exploresection"><div class="subSection sub2"></a>
-<br></br>
-<br></br>
-If you would like to learn more about my projects and achievements, please click on 
-the following links. 
-<br></br>
-<a href="https://anthonyverghese.github.io/Resume.pdf">
+      <!--   Icon Section   -->
+      <div class="row">
+	  <h4 class="center">Projects</h4>
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h5 class="center">Game Predictor Website</h5>
+
+            <p class="light">I've always wanted to blend my interests in software engineering and basketball, and this site did just that. I created a site that gives a personal touch to basketball fans, and gives them a better way to analyze upcoming games, with graphs and detailed explanations of certain statistics. To complete this website, I utilized web scraping with BeautifulSoup/Python, the D3 library, AngularJS, and HTML/CSS/JavaScript. Enjoy!</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h5 class="center">Submissions Scenarios Website</h5>
+
+            <p class="light">Over the summer, I interned at Booz Allen Hamilton with a web application team that focuses on online capital planning for eighteen government agencies. I created a website that asks the government agencies using Booz Allen's web application a series of questions and determines what submission scenario they are dealing with. I utilized HTML/CSS/JavaScript to develop an optimal algorithm, and used Materialize for the UI components.</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h5 class="center">Indiana Jones learns about Heaps and Graphs</h5>
+
+            <p class="light">For my final project in my data structures class at Cornell, I had to create an algorithm that allows Indiana Jones to escape from a crumbling cave with as much gold as he can get. I used a min heap implementation with distance from tile/amount of gold at tile as the values put into the heap. Djikstra's algorithm and breadth first search were also used to get Indiana Jones to escape on time.Received third best grade in class for this implementation.</p>
+          </div>
+        </div>
+		<div class="center">
+		<a href="blogPage.html" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">For more detailed explanations of my projects, view my blogs page</a>
+		</div>
+	</div>
+
+    </div>
+  </div>
+
+
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light"></h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="background2.jpg" alt="Unsplashed background img 2"></div>
+  </div>
+
+  <div class="container">
+    <div class="section">
+
+      <div class="row">
+        <div class="col s12 center">
+          <h3><i class="mdi-content-send brown-text"></i></h3>
+          <h4>Links</h4>
+		  <a href="Resume.pdf">
 <img src="Resume.png" alt="View my resume" width="70" height="70" border="0">
 </a>
 <a href="https://www.linkedin.com/in/anthony-verghese-195762112/">
@@ -43,18 +106,36 @@ the following links.
 <a href="https://github.com/anthonyverghese">
 <img src="GitHub.png" alt="View my GitHub" width="70" height="70" border="0">
 </a>
+          <p class="left-align light"></p>
+        </div>
+      </div>
+
+    </div>
+  </div>
 
 
-</div>
-<div class="sect sectThree"></div>
-<a name="contactsection"><div class="subSection sub3"></a>
-Contact 
-<br></br>
-Email: akv26@cornell.edu
-<br></br>
-Phone: (703)-268-9327
-</div>
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light"></h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="background3.jpg" alt="Unsplashed background img 3"></div>
+  </div>
+
+  <footer class="page-footer teal">
+    <div class="container">
+         
+    </div>
+  </footer>
 
 
-</body>
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
+  </body>
 </html>
