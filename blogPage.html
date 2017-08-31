@@ -109,7 +109,30 @@
 <div class="container">
     <div class="section">
   <div class="row">
-  <h4 class="center">Indiana Jones Heap Implementation 12/08/2016</h4>
+    <h4 class="center">Malloc Implementation 05/15/2017</h4>
+  <p class="center light">Implementing Malloc in C was quite difficult, because the four main functions, init, alloc, release, and resize, required a significant amount of thought and planning before they could be completed. There were many ways to tackle the problem.</p>
+  <br>
+  <p class = "center light"> I started by trying to code the simple implementation of malloc, where recently freed blocks were added to the end of a linked list containing free blocks on the heap. When data needed to be stored on the heap, this algorithm simply traversed through the linked list until a block of adequate size was found. Although this was fairly easy to code, it was not efficient and wasted a significant amount of space and time, which are key components of implementing Malloc well. </p>
+  <br>
+  <p class="center light">I thought about how I could add adjacent blocks together to make bigger blocks to store larger data. I additionally realized that having individual lists that hold only free blocks of the same size could be more efficient, because rather than always iterating through the same list, which usually has many blocks of the same size, I could write an algorithm that loops through the first nodes of each list, and determines which list to take a block from. I ended up implementing this for the final version, and it worked out quite well. </p>
+  </div>
+  </div>
+  </div>
+  
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light"></h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="background2.jpg" alt="Unsplashed background img 2"></div>
+  </div>
+  <div class="container">
+    <div class="section">
+  <div class="row">
+<h4 class="center">Indiana Jones Heap Implementation 12/08/2016</h4>
   <p class="center light">During my data structures class, I learned a significant number of complex algorithms used with linked lists, stacks/queues, heaps, and graphs, and my final project gave me the opportunity to come up with my own algorithm to get Indiana Jones out of a crumbling building with as much gold as possible.</p>
   <br>
   <p class="center light">I was just as confused as you are when I first heard about the assignment. However, the goal of the assignment was quite simple. The professor provided the GUI display, and the students had to create their own algorithms to make the Indiana Jones character on the map of the GUI escape in time, while getting as much gold as possible.</p>
@@ -120,6 +143,32 @@
   </div>
   </div>
   </div>
+  
+   <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light"></h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="background3.jpg" alt="Unsplashed background img 3"></div>
+  </div>
+<div class="container">
+    <div class="section">
+  <div class="row">
+  <h4 class="center">Skirmos File Parsing Project 08/15/2016</h4>
+  <p class="center light">During my summer working with Skirmos, I used Java to develop an algorithm to take data from a file and store it in individual objects. Skirmos creates laser tag guns, and players can create their own games because the code is open-source. With this feature, various attributes of each game, such as the number of players, the game type, the gun types, and many others, vary. Thus, I had to create three classes, Game, Trait, and Weapon, which I used to create my objects and store the data from the files. </p>
+  <br>
+  <p class="center light">Although this task seems trivial, I had never had experience working with regular expressions and I had limited experience with parsing data files. Thus, I had to do some research in these topics to figure out the optimal way to parse the file and store the data in individual objects. Eventually, I figured out that working with the INI library in Java was better than using regular expressions because it has built-in functions to make file parsing easier and more efficient. </p>
+  <br>
+  <p class="center light">I used a switch statement that took in a certain value based on the header of each section in the INI file, and added data to the corresponding object associated with that header. The switch statement was put inside a for loop, so that the whole file was traversed. </p>
+  <br>
+  <p class="center light">Ultimately, I accomplished this main project and dabbled a bit with the JavaFX GUI library afterwards during my summer with Skirmos. Working with the team inspired me to pursue software engineering as a career, because I learned that there is always a more efficient way to go about solving a problem, and finding it is very exciting. I was always thinking when I was working with Skirmos, so I was never bored or disinterested. </p>
+  </div>
+  </div>
+  </div>
+  
   <div class="container">
     <div class="section">
 
