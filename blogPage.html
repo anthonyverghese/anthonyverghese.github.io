@@ -33,21 +33,16 @@
 
       <!--   Icon Section   -->
       <div class="row">
-	  <h4 class="center">Game Predictor Website <a href="https://gamepredictor.github.io/">gamepredictor.github.io</a> 08/15/2017</h4>
-
-      <p class="center light">I started working on a game predictor site, because I wanted to put my software engineering knowledge towards a subject that I was actually interested in. In addition, I wanted to learn a lot of new concepts and programming frameworks throughout the experience of making the site. I kept these two goals in mind every time I worked on the website over the summer, and it helped me stay motivated and have a ton of fun. </p>
-			<p class="center light">Coming up with a specific idea for the site was the tough part because I wanted to put so much in it. I knew that I wanted it to be centered around basketball, but I wasn’t sure about the specifics. However, after perusing through some NBA and ESPN sites, I realized that if you are interested in predicting the outcomes of upcoming games, you have to go to each team’s individual pages and filter through hundreds of seemingly random numbers with no explanations given on the page. I also noticed that few websites gave graphs of the data, and I did not come across a single website that displayed grouped charts comparing data from multiple teams. These experiences sparked my idea for the game predictor website.</p>
-			<p class="center light">I am not a gambler, so I wanted to emphasize that through the first section of the site that I added. I used play FIFA a lot, so I was inspired by that game to allow the user to select their favorite team and update the layout and background images of the site through their choice. This, in my opinion, added a nice personalized touch to the site and allows the user to feel connected with it and not quickly search something else on the web, which I found myself doing often when trying to analyze the hundreds of random statistics given on team’s websites. In order to complete this portion of the site, I had to learn AngularJS, which, through research, I discovered was a great tool to use for animations. I went through the W3 Schools tutorial on AngularJS and got started with the animations after that; overall, I was happy with the result but ready and I was ready to move on to the actual data analytics portion of the site.</p>
-			<p class="center light">After completing the fun personalized touch to the site, I knew that I would have to look into some sort of graphing library in JavaScript, as a means of displaying the data that I found important. I wanted to compare the data of the two teams that the user chose that were useful for the algorithm that I was making. I ignored data such as average number of turnovers, for example, because usually these numbers are not much different from team to team, so displaying it in a graph is not very helpful. I decided to learn about the D3 graphing library in JavaScript in order to achieve my goal of displaying the data in grouped bar charts. However, I ran into one issue; how was I supposed to display the data if it is constantly changing? I had heard of web scraping, but I had never used it before. Thus, my final learning stage ensued, as I delved into a very interesting portion of the project.</p>
-			<p class="center light">Web scraping was tough for me because I had never worked with it before, and most of my friends were not too familiar with it either. However, the internet is an extremely useful resource in this day and age, so I was able to figure out that using Python and BeautifulSoup would help me accomplish my goal with relative ease. I was able to catch onto the syntax fairly quickly with a few bumps on the way, but in the end I chose the statistics that I found most useful from various sites, and I used that for the d3 grouped bar charts.</p>
-			<p class="center light">At the end of the site, I included my prediction of who would win the upcoming game based on the data that I scraped. I developed an algorithm, which I believe takes the most important data and weights the individual values appropriately. I added and subtracted these weighted values and compared the sums of the two teams. </p>
-			<p class="center light">Overall, I had a lot of fun with this project, which was my ultimate goal. In addition, I achieved my second goal of learning a significant amount, such as AngularJS, the D3 library, and web scraping with BeautifulSoup. </p>
-			</div>
+        <h4 class="center">NFL Machine Learning Flask App</h4>
+    
+        <p class="center light">During the pandemic, I was slowly getting bored of my hobbies as I spent more and more time at home. I ended up getting hooked on watching football, which I was never really a fan of. After getting into football, I thought it would be cool to try improving upon my game predictor site from years ago and incorporating football into the website, rather than just basketball. I looked at the old code and realized how poorly written and disorganized it was. I decided to start from scratch with some new technologies, because it would allow me to learn some new technologies and create a clean, organized application.</p>
+              <p class="center light">In my previous predictor website, I created my own simple algorithm with weights on stats that I thought were important. When creating this new NFL app, I wanted to use machine learning to come up with weights and decide what stats were important and what weren't. I started by gathering data into my algorithm with BeautifulSoup Python code. Then, I did some tutorials on the Tensorflow machine learning library, and I was able to create a machine learning algorithm that actually worked! However, my results were not very good; a lot of the predictions of the results of games were not accurate. I spent hours trying out different epoch and training rate values to see what worked best, and finally I realized that I should just create a program to run through hundreds of different epoch/training rate pairs and have it figure out the optimal pair. Once I did that, I was confident with the resulting epoch/training rate pair and my algorithm was complete and working relatively well.</p>
+              <p class="center light">Once I finished developing my machine learning algorithm, I needed to create a front-end application to display my results in the browser. I wanted to learn a new technology that integrated well with Python code, so I ended up going with a Flask application. I spent a while learning how to use Flask, but time flew by because I love learning new technologies. In the end, I ended up creating a Flask app and the output was looking good! I added some clear instructions on how to set up the Flask app locally on my github page.</p>
+              <p class="center light">After completing the fun personalized touch to the site, I knew that I would have to look into some sort of graphing library in JavaScript, as a means of displaying the data that I found important. I wanted to compare the data of the two teams that the user chose that were useful for the algorithm that I was making. I ignored data such as average number of turnovers, for example, because usually these numbers are not much different from team to team, so displaying it in a graph is not very helpful. I decided to learn about the D3 graphing library in JavaScript in order to achieve my goal of displaying the data in grouped bar charts. However, I ran into one issue; how was I supposed to display the data if it is constantly changing? I had heard of web scraping, but I had never used it before. Thus, my final learning stage ensued, as I delved into a very interesting portion of the project.</p>
+              <p class="center light">Overall, this project made my time spent at home during the pandemic much more bearable. I learned how to use the Tensorflow and Flask libraries, and I created my first functioning machine learning algorithm, which was awesome! I do have some future enhancements, such as hosting the app with a domain name. I ran into some issues trying to do this with AWS Elastic Beanstalk, but will surely try setting it up in the future. Another future enhancement would be increasing the speed of the algorithm; using an API instead of scraping the data would likely make things much more efficient. All in all, I learned a lot from this project and it has taught me that projects never need to end; there is still so much that I can add to this app to make it better and it's exciting to think of new ideas to apply to it.</p>
+              </div>
     </div>
   </div>
-
-
-
 
   <div class="parallax-container valign-wrapper">
     <div class="section no-pad-bot">
@@ -61,8 +56,61 @@
   </div>
   <div class="container">
     <div class="section">
+      <div class="row">
+        <h4 class="center">Stratego Board Game Implementation</h4>
+    
+          <p class="center light">In my functional programming class, we were told that our final project would involve develop a digital board game using OCAML. Once I found three other team members, we discussed possible games to implement, and we took a while to decide on a game that we all knew and would enjoy coding up. Chess was too unoriginal as a game to choose, but we were all fans of it, so it was tough to say no to that option. It was easier to remove chess as an option when we considered the idea of creating an AI to play against, because a chess AI would probably be too complex for us to implement, with billions of possible board setups after just a few moves. We ended up deciding on a game called Stratego, which we had all played as kids.</p>
+          <p class="center light">Once we had decided on Stratego, we were excited to start developing code. Before we jumped into the code, though, we planned out how we would organize the code. We went with a Model-View-Controller approach and split up tasks amongst our teammates. Even though we split up portions of the game development, we knew that we would run into issues if someone was working through a problem alone and needed some help, so We made sure that everyone touched each aspect of the game in some way, even if it was relatively minor. Focusing on separate portions of an MVC application taught me how important it is to explain how your code works. It is like working with a dependent application team and trying to figure out how two puzzle pieces can be put together.</p>
+          <p class="center light">Once the MVC portion was complete, we moved onto the AI that we could play against. We decided to go with a minimax algorithm for the AI, which essentially tries to minimize the possible loss as much as possible. Developing the algorithm seems easy at first, but it ending up being very difficult to develop, especially with a functional programming language like OCAML. One thing we noticed was that resources online that explained how minimax worked did not always align with how the OCAML language was set up. This forced us to work together to figure out bugs we were facing and eventually we were successful. We learned the power of teamwork through the AI algorithm development process. </p>
+          <p class="center light">After the AI algorithm was finished, all that was left was the CLI portion of the game. The CLI was quite difficult to implement, mostly because there are so few resources online to help with creating CLI outputs using OCAML. We were stuck for a while but ended up finding a useful OCAML package that was able to help us, and we ended up implementing the Stratego board game after many weeks of hard work.</p>
+          <p class="center light">Overall, I had a lot of fun with this project, and I had a great time working with my teammates. It was tough working through the issues we faced with using the OCAML functional programming language, which has very few helpful resources online, but that taught me patience and how to work well with a team. I also learned how creative programming can be with this open-ended final project.</p>
+          </div>
+  </div>
+  </div>
+
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light"></h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="background3.jpg" alt="Unsplashed background img 3"></div>
+  </div>
+  <div class="container">
+    <div class="section">
+      <div class="row">
+        <h4 class="center"><a href="https://gamepredictor.github.io/">gamepredictor.github.io</a></h4>
+    
+          <p class="center light">I started working on a game predictor site, because I wanted to put my software engineering knowledge towards a subject that I was actually interested in. In addition, I wanted to learn a lot of new concepts and programming frameworks throughout the experience of making the site. I kept these two goals in mind every time I worked on the website over the summer, and it helped me stay motivated and have a ton of fun. </p>
+          <p class="center light">Coming up with a specific idea for the site was the tough part because I wanted to put so much in it. I knew that I wanted it to be centered around basketball, but I wasn’t sure about the specifics. However, after perusing through some NBA and ESPN sites, I realized that if you are interested in predicting the outcomes of upcoming games, you have to go to each team’s individual pages and filter through hundreds of seemingly random numbers with no explanations given on the page. I also noticed that few websites gave graphs of the data, and I did not come across a single website that displayed grouped charts comparing data from multiple teams. These experiences sparked my idea for the game predictor website.</p>
+          <p class="center light">I am not a gambler, so I wanted to emphasize that through the first section of the site that I added. I used play FIFA a lot, so I was inspired by that game to allow the user to select their favorite team and update the layout and background images of the site through their choice. This, in my opinion, added a nice personalized touch to the site and allows the user to feel connected with it and not quickly search something else on the web, which I found myself doing often when trying to analyze the hundreds of random statistics given on team’s websites. In order to complete this portion of the site, I had to learn AngularJS, which, through research, I discovered was a great tool to use for animations. I went through the W3 Schools tutorial on AngularJS and got started with the animations after that; overall, I was happy with the result but ready and I was ready to move on to the actual data analytics portion of the site.</p>
+          <p class="center light">After completing the fun personalized touch to the site, I knew that I would have to look into some sort of graphing library in JavaScript, as a means of displaying the data that I found important. I wanted to compare the data of the two teams that the user chose that were useful for the algorithm that I was making. I ignored data such as average number of turnovers, for example, because usually these numbers are not much different from team to team, so displaying it in a graph is not very helpful. I decided to learn about the D3 graphing library in JavaScript in order to achieve my goal of displaying the data in grouped bar charts. However, I ran into one issue; how was I supposed to display the data if it is constantly changing? I had heard of web scraping, but I had never used it before. Thus, my final learning stage ensued, as I delved into a very interesting portion of the project.</p>
+          <p class="center light">Web scraping was tough for me because I had never worked with it before, and most of my friends were not too familiar with it either. However, the internet is an extremely useful resource in this day and age, so I was able to figure out that using Python and BeautifulSoup would help me accomplish my goal with relative ease. I was able to catch onto the syntax fairly quickly with a few bumps on the way, but in the end I chose the statistics that I found most useful from various sites, and I used that for the d3 grouped bar charts.</p>
+          <p class="center light">At the end of the site, I included my prediction of who would win the upcoming game based on the data that I scraped. I developed an algorithm, which I believe takes the most important data and weights the individual values appropriately. I added and subtracted these weighted values and compared the sums of the two teams. </p>
+          <p class="center light">Overall, I had a lot of fun with this project, which was my ultimate goal. In addition, I achieved my second goal of learning a significant amount, such as AngularJS, the D3 library, and web scraping with BeautifulSoup. </p>
+          </div>
+  </div>
+  </div>
+
+
+
+
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light"></h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="background1.jpg" alt="Unsplashed background img 1"></div>
+  </div>
+  <div class="container">
+    <div class="section">
   <div class="row">
-  <h4 class="center">Submission Scenarios website 08/08/2017</h4>
+  <h4 class="center">Submission Scenarios website</h4>
   <p class="center light">Over the summer, I worked at Booz Allen Hamilton. I worked on a team that runs a web application for eighteen government agencies to help them with capital planning. During my summer at the company, the team was working on finalizing changes for the release of the updated site. The developers and UI/UX teams had made many changes during the year due to changes in government rules that required certain things to be displayed/hidden or general UI changes.</p>
   <p class="center light">With this release came many confused clients at the individual government agencies. The clients had to make many changes to their inputs and fix things that were working before. Thus, I was able to work on an interesting project from this issue. The team wanted me to create a website that essentially served as a long survey and determined what issue the individual government agency was experiencing with their investment and give them information on how to resolve the issue. </p>
   <p class="center light">The task seemed fairly simple at first, but I realized that with many possible submission scenarios, it would not be easy to make it as efficient as possible. In addition, the team wanted me to make it quick, have help button options, and a restart option to aid the user throughout his/her perusal through the website. </p>
@@ -82,12 +130,12 @@
         </div>
       </div>
     </div>
-    <div class="parallax"><img src="background3.jpg" alt="Unsplashed background img 3"></div>
+    <div class="parallax"><img src="background2.jpg" alt="Unsplashed background img 2"></div>
   </div>
 <div class="container">
     <div class="section">
   <div class="row">
-    <h4 class="center">Malloc Implementation 05/15/2017</h4>
+    <h4 class="center">Malloc Implementation</h4>
   <p class="center light">Implementing Malloc in C was quite difficult, because the four main functions, init, alloc, release, and resize, required a significant amount of thought and planning before they could be completed. There were many ways to tackle the problem.</p>
   <p class = "center light"> I started by trying to code the simple implementation of malloc, where recently freed blocks were added to the end of a linked list containing free blocks on the heap. When data needed to be stored on the heap, this algorithm simply traversed through the linked list until a block of adequate size was found. Although this was fairly easy to code, it was not efficient and wasted a significant amount of space and time, which are key components of implementing Malloc well. </p>
   <p class="center light">I thought about how I could add adjacent blocks together to make bigger blocks to store larger data. I additionally realized that having individual lists that hold only free blocks of the same size could be more efficient, because rather than always iterating through the same list, which usually has many blocks of the same size, I could write an algorithm that loops through the first nodes of each list, and determines which list to take a block from. I ended up implementing this for the final version, and it worked out quite well. </p>
@@ -103,12 +151,12 @@
         </div>
       </div>
     </div>
-    <div class="parallax"><img src="background2.jpg" alt="Unsplashed background img 2"></div>
+    <div class="parallax"><img src="background3.jpg" alt="Unsplashed background img 3"></div>
   </div>
   <div class="container">
     <div class="section">
   <div class="row">
-<h4 class="center">Resource Pathfinder 12/08/2016</h4>
+<h4 class="center">Resource Pathfinder</h4>
   <p class="center light">During my data structures class, I learned a significant number of complex algorithms used with linked lists, stacks/queues, heaps, and graphs, and my final project gave me the opportunity to come up with my own algorithm to get Indiana Jones out of a crumbling building with as much gold as possible.</p>
   <p class="center light">I was just as confused as you are when I first heard about the assignment. However, the goal of the assignment was quite simple. The professor provided the GUI display, and the students had to create their own algorithms to make the Indiana Jones character on the map of the GUI escape in time, while getting as much gold as possible.</p>
   <p class="center light">This was not an easy assignment, as there were many ways to go about writing a solution. Thus, I spent a significant amount of time planning the algorithm without writing code, and then I went through a trial and error phase with writing code. It took me about a week and half to realize that my ideas were not working well and there was definitely something more efficient that I could implement. With a few days left before the project was due, I realized that rather than using a linked list with the amount of gold at each tile on the map stored as data within each node, it would be much more efficient to use a min heap and store the ratios of distance away from current position/amount of gold at tile, and iterate through this heap each time I made a move, checking to make sure that I had enough time to do so. My initial ideas were too simple and did not utilize a heap or a ratio system. In addition, I was struggling to complete Dijkstra’s algorithm, but in the end I successfully implemented it, making my algorithm complete. </p>
@@ -125,12 +173,12 @@
         </div>
       </div>
     </div>
-    <div class="parallax"><img src="background3.jpg" alt="Unsplashed background img 3"></div>
+    <div class="parallax"><img src="background1.jpg" alt="Unsplashed background img 1"></div>
   </div>
 <div class="container">
     <div class="section">
   <div class="row">
-  <h4 class="center">Skirmos File Parsing Project 08/15/2016</h4>
+  <h4 class="center">Skirmos File Parsing Project</h4>
   <p class="center light">During my summer working with Skirmos, I used Java to develop an algorithm to take data from a file and store it in individual objects. Skirmos creates laser tag guns, and players can create their own games because the code is open-source. </p>
   <p class="center light">Although this task seems trivial, I had never had experience working with regular expressions and I had limited experience with parsing data files. Thus, I had to do some research in these topics to figure out the optimal way to parse the file and store the data in individual objects. Eventually, I figured out that working with the INI library in Java was better than using regular expressions because it has built-in functions to make file parsing easier and more efficient. </p>
   <p class="center light">Ultimately, I accomplished this main project and dabbled a bit with the JavaFX GUI library afterwards during my summer with Skirmos. Working with the team inspired me to pursue software engineering as a career, because I learned that there is always a more efficient way to go about solving a problem, and finding it is very exciting. I was always thinking when I was working with Skirmos, so I was never bored or disinterested. </p>
